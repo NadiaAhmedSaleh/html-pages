@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first {
+  width: 1024px;
+  display: flex;
+  background-color: #7cb8ef;
+  justify-content: space-evenly;
+}
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navbar a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+a:hover {
+  background-color: #3d5f83;
+}
+.icon2 {
+  display: flex;
+  align-items: center;
+}
+
+.second {
+  width: 1024px;
+  height: 400px;
+  background-image: url(https://www.shapesbyhydro.com/globalassets/shapes/expert-thoughts/materials-for-supertall-buildings01.jpg?quality=85&width=1036&height=440&mode=crop&center=0.5,0.5);
+}
+
+.second h1 {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+.second p {
+  text-align: center;
+  color: white;
+}
+.third {
+  width: 1024px;
+
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.third div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding-left: 30px;
+
+  text-align: center;
+}
+.third img {
+  width: 150px;
+  height: 80px;
+  margin-left: 40px;
+}
+.fourth {
+  padding-top: 50px;
+  width: 1024px;
+  display: flex;
+  background-color: #3d5f83;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: row;
+  width: 1024;
+  background-color: #3d5f83;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.child {
+  padding: 20px;
+}
+.sixth {
+  width: 1024px;
+  padding-top: 50px;
+  text-align: center;
+}
+.inside {
+  display: flex;
+  flex-direction: row;
+  width: 1024px;
+  justify-content: space-evenly;
+}
+.seventh {
+  text-align: center;
+  width: 1024px;
+  padding-top: 50px;
+}
+.seventh img:hover {
+  filter: hue-rotate(180deg);
+}
+.eight {
+  width: 1124px;
+  display: flex;
+  flex-direction: row;
+  background-color: #3d5f83;
+
+  font-size: small;
+  color: white;
+}
+.eight div {
+  padding-left: 50px;
+}
+.footer div {
+  margin-bottom: 30px;
+
+  font-size: small;
+}

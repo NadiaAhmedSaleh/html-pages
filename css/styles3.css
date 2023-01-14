@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first {
+  width: 1024px;
+  display: flex;
+  background-color: #7cb8ef;
+  justify-content: space-evenly;
+}
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navbar a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+a:hover {
+  background-color: #3d5f83;
+}
+.icon2 {
+  display: flex;
+  align-items: center;
+}
+.second {
+  width: 1024px;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(https://www.shapesbyhydro.com/globalassets/shapes/expert-thoughts/materials-for-supertall-buildings01.jpg?quality=85&width=1036&height=440&mode=crop&center=0.5,0.5);
+}
+.third {
+  width: 1024px;
+  text-align: center;
+}
+.child1 {
+  display: flex;
+  flex-direction: column;
+}
+.fourth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1024px;
+}
+.fourth input {
+  width: 350px;
+}
+.vl {
+  border-left: 3px solid rgb(16, 149, 211);
+  height: 700px;
+  margin-left: 100px;
+}
+
+.fifth {
+  display: flex;
+  justify-content: space-around;
+  float: inline-start;
+  width: 1024px;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+iframe {
+  width: 400px;
+  height: 300px;
+}
+
+td img {
+  width: 50px;
+  height: 30px;
+  margin: 20px;
+}
+.child2 span {
+  padding-left: 30px;
+}
+
+h1 {
+  color: #11365e;
+}
+h2 {
+  color: #8ba9ca;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: row;
+  background-color: #3d5f83;
+  width: 1024px;
+  font-size: smaller;
+}
+.vl {
+  border-left: 2px solid rgb(131, 133, 136);
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+}
